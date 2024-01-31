@@ -4,41 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soy mia</title>
+    <title>Document</title>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- link css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <div>
-                <a href="/index.html">
-                    <img src="./images/WhatsApp Image 2023-12-14 at 9.04.43 AM (1).jpeg" alt="Logo" width="180px"
-                        height="115px">
+        <nav class="navbar bg-nav-bar navbar-expand-lg ">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <img src="./images/WhatsApp Image 2023-12-14 at 9.04.43 AM (1).jpeg" alt="Bootstrap" width="120"
+                        height="90">
                 </a>
-            </div>
-            <div>
-                <ul class="margen-derecho">
-                    <a href="./index.html">INICIO</a>
-                    <a href="./pages/productos.html">PRODUCTOS</a>
-                    <a href="./pages/contactos.html">CONTACTO</a>
-                </ul>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./pages/productos.html">Productos</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./pages/contactos.html">CONTACTO</a>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
         </nav>
     </header>
-    <Main class="container">
+
+    <Main class="containercss container">
         <div class="box">
             <img class="img-index" src="./images/nueva temporada.jpg" alt="Nueva temporada">
         </div>
-        <div class="box">
-            <ul>
-                <li><a href="./pages/productos.html">PRODUCTO</a></li>
-                <li><a href="./pages/lenceria.html">LENCERIA</a></li>
-                <li><a href="./pages/bikinis.html">BIKINIS</a></li>
-            </ul>
+        <div class="box box3">
+            <a class="link-producto" href="./pages/productos.html">PRODUCTO</a>
+            <a class="link-producto" href="./pages/lenceria.html">LENCERIA</a>
+            <a class="link-producto" href="./pages/bikinis.html">BIKINIS</a>
         </div>
 
     </Main>
+    
     <footer>
         <div class="footer-container">
             <div>
