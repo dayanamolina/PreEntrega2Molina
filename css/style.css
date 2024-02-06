@@ -2,104 +2,49 @@
 body {
     margin: 0;
     padding: 0;
-    min-height: 100vh; 
+    min-height: 100vh;
     position: relative;
 }
 
-a{
+a {
     text-decoration-line: none;
 }
 
 /* Barra de navegacion */
 
-.bg-nav-bar{
+.bg-nav-bar {
     background-color: #030101;
 }
 
 /*estilos del footer*/
-footer{
+footer {
     text-align: center;
     background-color: black;
     width: 100%;
     bottom: 0px;
-    /* position: fixed; */
 }
-footer p{
+
+footer p {
     color: white;
 }
 
-.titulo{
+.titulo {
     font-size: 50px;
     color: white;
 }
+
 .margen-derecho {
-margin-right:40px ;
+    margin-right: 40px;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: space-between;
 }
 
-.img-correo{
+.img-correo {
     background-color: yellow;
     padding: 6px 12px;
-}
-
-/* Main inicio */
-
-
-.containercss {
-    width: 80%;
-    margin: 50px 20% auto 20%;
-    font-size: 30px; 
-}
-
-.box {
-    width: 400px; 
-    height: 420px; 
-    margin-right: 100px; 
-    display: inline-block;
-    vertical-align: top;
-}
-
-
-
-.box3{
-    margin-top: 30px;
-}
-.box ul li {
-    margin-bottom: 25px;
-    list-style: none;
-}
-
-.box ul li a {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 2px solid black;
-    background-color: #fcfafa; 
-    text-decoration: none;
-    color: #080808; 
-    text-align: center;
-    line-height: 40px;
-}
-
-.box .link-producto {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 2px solid black;
-    background-color: #fcfafa; 
-    text-decoration: none;
-    color: #080808; 
-    text-align: center;
-    line-height: 40px;
-    margin-top: 25px;
-}
-
-.img-index{
-    width: 400px; 
-    height: 420px;
 }
 
 /*estilos del formulario*/
@@ -118,6 +63,7 @@ label {
     display: block;
     margin-bottom: 8px;
 }
+
 .input-style {
     width: 100%;
     padding: 10px;
@@ -126,10 +72,12 @@ label {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
 .container-buttons {
-display: flex;
-justify-content: end;
+    display: flex;
+    justify-content: end;
 }
+
 .input-button-enviar {
     background-color: #4caf50;
     color: white;
@@ -138,6 +86,7 @@ justify-content: end;
     border-radius: 4px;
     cursor: pointer;
 }
+
 .input-button-cancelar {
     background-color: red;
     color: white;
@@ -151,13 +100,14 @@ justify-content: end;
 .input-button-enviar:hover {
     background-color: #45a049;
 }
+
 .input-button-cancelar:hover {
     background-color: #830303;
 }
 
 /*main bikinis y lenceria*/
 
-.contenedor{
+.contenedor {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
@@ -166,87 +116,83 @@ justify-content: end;
 .descripcion-bikinis p {
     font-size: medium;
 }
+
 .titulo-descripcion {
-font-weight: bold;
-margin-bottom: 6px;
+    font-weight: bold;
+    margin-bottom: 6px;
 }
+
 .card-bikinis {
     display: flex;
-    align-items: center; 
+    align-items: center;
     width: 100%;
     margin-bottom: 50px;
 }
 
 .descripcion-bikinis img {
-    margin-left: 20px; 
+    margin-left: 20px;
 }
-.img-catalogo{
+
+.img-catalogo {
     margin-right: 10px;
 }
+
 .container-cards {
     display: flex;
-    align-items: center; 
+    align-items: center;
     flex-wrap: wrap;
 }
+
 .container-bikinis {
     height: 1100px;
     width: 80%;
     margin: 45px auto auto 100px;
-    font-size: 30px; 
+    font-size: 30px;
 }
-main{
+
+main {
     margin-top: 30px;
-    margin-bottom: 180px; 
+    margin-bottom: 180px;
 }
-.descripcion-bikinis{
+
+.descripcion-bikinis {
     width: 50%;
 }
 
 /* Estilos Carousel */
 #carouselExampleFade {
-    width: 100%; /* Define el ancho del carrusel */
-    /* max-width: 600px; Establece un ancho máximo para el carrusel */
-    margin: 30px auto; 
-    /* height: 300px; Altura automática para ajustarse al contenido */
+    width: 100%;
+    margin: 30px auto;
     height: 400px;
 }
 
-.imgcarousel{
+.imgcarousel {
     height: 400px;
 }
 
 /* Media query para mobile (index y productos)*/
 @media screen and (max-width: 320px) {
-    .containercss {
-        font-size: 1rem; 
-    }
-
-    .box {
-        width: 100%; 
-        margin-bottom: 30%;
-    }
 
     .footer-container {
         flex-direction: row;
     }
 
-    .imgcarousel{
+    .imgcarousel {
         height: 250px;
     }
+
     #carouselExampleFade {
         height: 250px;
     }
-    
-
 }
-@media screen and (max-width: 700px ) {
 
-    .imgcarousel{
+@media screen and (max-width: 700px) {
+
+    .imgcarousel {
         height: 250px;
     }
+
     #carouselExampleFade {
         height: 250px;
     }
-    
-
 }
