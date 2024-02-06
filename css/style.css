@@ -22,7 +22,7 @@ footer{
     background-color: black;
     width: 100%;
     bottom: 0px;
-    position: fixed;
+    /* position: fixed; */
 }
 footer p{
     color: white;
@@ -47,6 +47,7 @@ margin-right:40px ;
 
 /* Main inicio */
 
+
 .containercss {
     width: 80%;
     margin: 50px 20% auto 20%;
@@ -61,9 +62,7 @@ margin-right:40px ;
     vertical-align: top;
 }
 
-.box2 {
-    height: 1000px;
-}
+
 
 .box3{
     margin-top: 30px;
@@ -196,10 +195,24 @@ margin-bottom: 6px;
     font-size: 30px; 
 }
 main{
+    margin-top: 30px;
     margin-bottom: 180px; 
 }
 .descripcion-bikinis{
     width: 50%;
+}
+
+/* Estilos Carousel */
+#carouselExampleFade {
+    width: 100%; /* Define el ancho del carrusel */
+    /* max-width: 600px; Establece un ancho máximo para el carrusel */
+    margin: 30px auto; 
+    /* height: 300px; Altura automática para ajustarse al contenido */
+    height: 400px;
+}
+
+.imgcarousel{
+    height: 400px;
 }
 
 /* Media query para mobile (index y productos)*/
@@ -216,5 +229,24 @@ main{
     .footer-container {
         flex-direction: row;
     }
+
+    .imgcarousel{
+        height: 250px;
+    }
+    #carouselExampleFade {
+        height: 250px;
+    }
+    
+
+}
+@media screen and (max-width: 700px ) {
+
+    .imgcarousel{
+        height: 250px;
+    }
+    #carouselExampleFade {
+        height: 250px;
+    }
+    
 
 }

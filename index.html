@@ -49,18 +49,59 @@
         </nav>
     </header>
 
-    <Main class="containercss container">
-        <div class="box">
-            <img class="img-index" src="./images/nueva temporada.jpg" alt="Nueva temporada">
-        </div>
-        <div class="box box3">
-            <a class="link-producto" href="./pages/productos.html">PRODUCTO</a>
-            <a class="link-producto" href="./pages/lenceria.html">LENCERIA</a>
-            <a class="link-producto" href="./pages/bikinis.html">BIKINIS</a>
+    <main>
+        <div class="container">
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/foto-carrusel1.png" class="d-block w-100 imgcarousel" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/foto-carrusel2.png" class="d-block w-100 imgcarousel" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/foto-carrusel4.png" class="d-block w-100 imgcarousel" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="card">
+                <div class="card-body bg-black">
+                    <h5 class="card-title text-white">Soy Mía</h5>
+                    <p class="card-text text-white">Empezamos con un sueño: crear una marca sin limites, para todas!
+                        Estamos creciendo con pasión, la que se refleja todos los dias en prendas únicas, innovadoras y
+                        de calidad.
+                        Ya tenemos con cinco años de experiencia y vamos por mucho más con y por ustedes.</p>
+                </div>
+            </div>
+
+            <div class="card text-bg-dark mt-5">
+                <a href="./pages/productos.html">
+                    <img src="./images/productos-index.png" class="card-img" alt="img-lenceria">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">PRODUCTOS</h5>
+                        <p class="card-text">"La curva más bonita"</p>
+                    </div>
+                </a>
+            </div>
+
+            
+
         </div>
 
-    </Main>
-    
+    </main>
+
     <footer>
         <div class="footer-container">
             <div>
@@ -99,6 +140,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
