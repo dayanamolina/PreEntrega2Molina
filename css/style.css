@@ -184,9 +184,10 @@ main {
     #carouselExampleFade {
         height: 250px;
     }
+
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 
     .imgcarousel {
         height: 250px;
@@ -196,3 +197,6 @@ main {
         height: 250px;
     }
 }
+
+/*media query para paginas lenceria y contacto*/
+
