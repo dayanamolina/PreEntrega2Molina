@@ -105,59 +105,6 @@ label {
     background-color: #830303;
 }
 
-/*main bikinis y lenceria*/
-
-.contenedor {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-}
-
-.descripcion-bikinis p {
-    font-size: medium;
-}
-
-.titulo-descripcion {
-    font-weight: bold;
-    margin-bottom: 6px;
-}
-
-.card-bikinis {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 50px;
-}
-
-.descripcion-bikinis img {
-    margin-left: 20px;
-}
-
-.img-catalogo {
-    margin-right: 10px;
-}
-
-.container-cards {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.container-bikinis {
-    height: 1100px;
-    width: 80%;
-    margin: 45px auto auto 100px;
-    font-size: 30px;
-}
-
-main {
-    margin-top: 30px;
-    margin-bottom: 180px;
-}
-
-.descripcion-bikinis {
-    width: 50%;
-}
 
 /* Estilos Carousel */
 #carouselExampleFade {
@@ -198,5 +145,5 @@ main {
     }
 }
 
-/*media query para paginas lenceria y contacto*/
+
 
