@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* import */
 body {
   margin: 0;
   padding: 0;
@@ -9,12 +10,12 @@ body {
 
 /* Barra de navegacion */
 .bg-nav-bar {
-  background-color: black; }
+  background-color: #000000; }
 
 /* Estilos del footer */
 footer {
   text-align: center;
-  background-color: black;
+  background-color: #000000;
   width: 100%;
   bottom: 0px; }
   footer p {
@@ -27,13 +28,17 @@ footer {
   display: flex;
   justify-content: space-between; }
 
+.img-correo {
+  background-color: yellow;
+  padding: 6px 12px; }
+
 /* Estilos del formulario */
 form {
   width: 500px;
   margin: 50px auto; }
   form div {
     border-radius: 5px;
-    border: 2px solid black;
+    border: 2px solid #000000;
     padding: 10px; }
     form div label {
       display: block;
@@ -95,3 +100,7 @@ form {
   input.input-button-enviar {
     width: 100%;
     margin-bottom: 10px; } }
+
+.animate-button-tada:focus {
+  animation: tada;
+  animation-duration: 2s; }

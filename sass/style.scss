@@ -1,6 +1,6 @@
-//import
+/* import */
 
-@import "utilidades/variables"; 
+@import "utilidades/variables";
 
 body {
     margin: 0;
@@ -39,6 +39,11 @@ footer {
     justify-content: space-between;
 }
 
+.img-correo {
+    background-color: yellow;
+    padding: 6px 12px;
+}
+
 /* Estilos del formulario */
 form {
     width: 500px;
@@ -46,7 +51,7 @@ form {
 
     div {
         border-radius: 5px;
-        border: 2px solid $color-principal
+        border: 2px solid $color-principal;
         padding: 10px;
 
         label {
@@ -58,7 +63,7 @@ form {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
-            border: 1px solid $color-secundario
+            border: 1px solid $color-secundario;
             border-radius: 4px;
             box-sizing: border-box;
         }
@@ -136,4 +141,9 @@ form {
         width: 100%;
         margin-bottom: 10px;
     }
+}
+
+.animate-button-tada:focus {
+    animation: tada;
+    animation-duration: 2s;
 }
