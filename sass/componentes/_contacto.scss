@@ -1,0 +1,78 @@
+//import variables
+
+@import "../base/variables";
+@import "../componentes/mixins";
+
+
+/* Estilos del formulario */
+form {
+    width: 500px;
+    margin: 50px auto;
+
+    div {
+        border-radius: 5px;
+        border: 2px solid $color-principal;
+        padding: 10px;
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .input-style {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid $color-secundario;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+    }
+
+
+.container-buttons {
+    display: flex;
+    justify-content: end;
+
+    .input-button-enviar {
+        @include button-style(#4caf50);
+    }
+
+    .input-button-cancelar {
+        @include button-style(red);
+        margin-right: 3px;
+    }
+
+    .input-button-enviar:hover {
+        background-color: #45a049;
+    }
+
+    .input-button-cancelar:hover {
+        background-color: #830303;
+    }
+}
+}
+
+/* Media queries para dispositivos móviles y tabletas */
+@media screen and (max-width: 768px) {
+    form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    form {
+        width: 90%;
+    }
+
+    input.input-button-cancelar,
+    input.input-button-enviar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.animate-button-tada:focus {
+    animation: tada;
+    animation-duration: 2s;
+}

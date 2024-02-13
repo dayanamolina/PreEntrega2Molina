@@ -1,0 +1,24 @@
+@import "../base/variables";
+
+/* Inicio- Estilos Carousel */
+#carouselExampleFade {
+    width: 100%;
+    margin: 30px auto;
+    height: 400px;
+
+    .imgcarousel {
+        height: 400px;
+    }
+
+    /* Media queries para mobile */
+    @media screen and (max-width: 320px),
+    (max-width: 768px) {
+        .imgcarousel {
+            height: 375px;
+        }
+
+        #carouselExampleFade {
+            height: 250px;
+        }
+    }
+}

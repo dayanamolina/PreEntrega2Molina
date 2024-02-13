@@ -1,0 +1,10 @@
+//Mixins
+@import "../base/variables";
+@mixin button-style($param1) {
+    background-color: $param1;
+    color: $color-secundario;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

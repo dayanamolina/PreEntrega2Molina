@@ -1,0 +1,28 @@
+
+@import "../base/variables";
+
+/* Estilos del footer */
+footer {
+    text-align: center;
+    background-color: $color-principal;
+    width: 100%;
+    bottom: 0px;
+
+    p {
+        color: $color-secundario;
+    }
+}
+
+.margen-derecho {
+    margin-right: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-correo {
+    background-color: yellow;
+    padding: 6px 12px;
+}
