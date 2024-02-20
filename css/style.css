@@ -15,6 +15,11 @@ body {
 .border-toogle-button {
   border: 1px solid white; }
 
+/*Logo */
+.img-logo {
+  width: 120px;
+  height: 90px; }
+
 /* Inicio- Estilos Carousel */
 #carouselExampleFade {
   width: 100%;
@@ -105,4 +110,14 @@ footer {
 
 .img-correo {
   background-color: yellow;
-  padding: 6px 12px; }
+  padding: 6px 12px;
+  width: 75px;
+  height: 30px; }
+
+.img-tarjeta {
+  width: 45px;
+  height: 30px; }
+
+.img-redes {
+  width: 40px;
+  height: 40px; }
